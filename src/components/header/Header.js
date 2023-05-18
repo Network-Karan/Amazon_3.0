@@ -1,11 +1,13 @@
 import React from 'react'
-import logo from"../../assets/logo.png"
+import {logo} from "../../assets/index"
 
 const Header = () => {
   return (
     <div className='w-full bg-amazon_blue text-white px-4 py-3'>
         {/* ============ Image Start here =========== */}
-
+          <div>
+            <img className= "w-24 mt-2" src={logo} alt="logo" />
+          </div>
         {/* ============ Image End here =========== */}
         {/* ============ Deliver Start here =========== */}
 
