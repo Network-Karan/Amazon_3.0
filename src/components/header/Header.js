@@ -1,4 +1,5 @@
 import React from 'react'
+import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 import {logo} from "../../assets/index"
 
 const Header = () => {
@@ -13,7 +14,8 @@ const Header = () => {
         {/* ============ Image End here =========== */}
         {/* ============ Deliver Start here =========== */}
 <div>
-  
+<LocationOnOutlinedIcon/>
+<p>Deliver to <span>India</span></p>
 </div>
 
         {/* ============ Deliver Start here =========== */}
