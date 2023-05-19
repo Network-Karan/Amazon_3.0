@@ -7,17 +7,18 @@ const Header = () => {
       <div>
         <div className='w-full bg-amazon_blue text-white px-4 py-3 flex items-center gap-4'>
           {/* ============ Image Start here =========== */}
-          <div className='px-2 h-[80%] flex items-center border border-transparent
-           hover:border-white cursor cursor-pointer duration-100'>
+          <div className='headerHover'>
             <img className= "w-24 mt-2" src={logo} alt="logo" />
           </div>
         {/* ============ Image End here =========== */}
         {/* ============ Deliver Start here =========== */}
-        <div className='px-2 h-[80%] flex items-center border border-transparent
-         hover:border-white cursor cursor-pointer duration-100'>
+        <div className='headerHover'>
         <LocationOnOutlinedIcon/>
           <p className='text-sm text-lightText font-light flex flex-col'>
-            Deliver to <span className=''>India</span>
+            Deliver to
+             <span className='text-sm font-semibold -mt-1 text-whiteText'>
+              India
+            </span>
           </p>
         </div>
 
