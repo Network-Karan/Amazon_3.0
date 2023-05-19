@@ -25,9 +25,15 @@ const Header = () => {
 
         {/* ============ Deliver Start here =========== */}
         {/* ============ Search Start here =========== */}
-<div className='h-10 rounded-md flex flex-grow relative'>
-  <span>All <span></span><ArrowDropDownOutlinedIcon /></span>
-</div>
+      <div className='h-10 rounded-md flex flex-grow relative'>
+        <span>
+          All <span></span>
+          <ArrowDropDownOutlinedIcon />
+        </span>
+        <input 
+          className='h-full text-base text-amazon_blue flex-grow outline-none border-none px-2'
+          type="text" />
+      </div>
         {/* ============ Search Start here =========== */}
         {/* ============ Signin Start here =========== */}
         
