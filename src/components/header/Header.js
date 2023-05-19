@@ -5,7 +5,7 @@ import {logo} from "../../assets/index"
 const Header = () => {
   return (
       <div>
-        <div className='w-full bg-amazon_blue text-white px-4 py-3'>
+        <div className='w-full bg-amazon_blue text-white px-4 py-3 flex items-center gap-4'>
           {/* ============ Image Start here =========== */}
           <div className='px-2 h-[80%] flex items-center border border-transparent
            hover:border-white cursor cursor-pointer duration-100'>
@@ -13,10 +13,11 @@ const Header = () => {
           </div>
         {/* ============ Image End here =========== */}
         {/* ============ Deliver Start here =========== */}
-<div>
-<LocationOnOutlinedIcon/>
-<p>Deliver to <span>India</span></p>
-</div>
+        <div className='px-2 h-[80%] flex items-center border border-transparent
+         hover:border-white cursor cursor-pointer duration-100'>
+        <LocationOnOutlinedIcon/>
+          <p>Deliver to <span>India</span></p>
+        </div>
 
         {/* ============ Deliver Start here =========== */}
         {/* ============ Search Start here =========== */}
