@@ -16,7 +16,9 @@ const Header = () => {
         <div className='px-2 h-[80%] flex items-center border border-transparent
          hover:border-white cursor cursor-pointer duration-100'>
         <LocationOnOutlinedIcon/>
-          <p>Deliver to <span>India</span></p>
+          <p className='text-sm text-lightText font-light flex flex-col'>
+            Deliver to <span className=''>India</span>
+          </p>
         </div>
 
         {/* ============ Deliver Start here =========== */}
