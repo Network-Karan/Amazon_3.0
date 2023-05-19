@@ -1,5 +1,6 @@
 import React from 'react'
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
+import ArrowDropDownOutlinedIcon from '@mui/icons-material/ArrowDropDownOutlined';
 import {logo} from "../../assets/index"
 
 const Header = () => {
@@ -24,7 +25,9 @@ const Header = () => {
 
         {/* ============ Deliver Start here =========== */}
         {/* ============ Search Start here =========== */}
-
+<div>
+  <span>All <span></span><ArrowDropDownOutlinedIcon /></span>
+</div>
         {/* ============ Search Start here =========== */}
         {/* ============ Signin Start here =========== */}
         
