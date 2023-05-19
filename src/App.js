@@ -4,7 +4,7 @@ import Header from './components/header/Header';
 
 function App() {
   return (
-    <div>
+    <div className='font-bodyFont'>
       <Header />
     </div>
   );
