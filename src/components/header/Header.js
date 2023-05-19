@@ -25,7 +25,7 @@ const Header = () => {
 
         {/* ============ Deliver Start here =========== */}
         {/* ============ Search Start here =========== */}
-<div>
+<div className='h-10 rounded-md flex flex-grow relative'>
   <span>All <span></span><ArrowDropDownOutlinedIcon /></span>
 </div>
         {/* ============ Search Start here =========== */}
