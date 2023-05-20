@@ -28,7 +28,9 @@ const Header = () => {
         {/* ============ Deliver Start here =========== */}
         {/* ============ Search Start here =========== */}
       <div className='h-10 rounded-md flex flex-grow relative'>
-        <span>
+        <span className='w-14 h-full bg-gray-200 hover_bg-gray-300 border-2 cursor-point
+        duration-300 text-sm text-amazon_blue font-titleFont flex items-center
+        justify-center rounded-tl-md rounded-bl-md'>
           All <span></span>
           <ArrowDropDownOutlinedIcon />
         </span>
