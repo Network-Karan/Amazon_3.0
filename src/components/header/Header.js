@@ -4,10 +4,11 @@ import ArrowDropDownOutlinedIcon from '@mui/icons-material/ArrowDropDownOutlined
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import SearchIcon from '@mui/icons-material/Search';
 import {logo} from "../../assets/index"
+import { allItems } from '../../constants';
 
 const Header = () => {
   const [showAll, setShowAll]=useState(false)
-  console.log(showAll)
+
   return (
       <div>
         <div className='w-full bg-amazon_blue text-white px-4 py-3 flex items-center gap-4'>
@@ -42,15 +43,14 @@ const Header = () => {
               <ul className='absolute w-56 h-80 top-10 left-0 overflow-y-scroll
               overflow-x-hidden bg-white border-[1px] border-amazon_blue text-black p-2
               flex-col gap-1 z-50'>
-                <li className='text-sm tracking-wide font-titleFont border-b-[1px]
-                  border-b-transparent hover:border-b-amazon_blue cursor-pointer duration-200'>
-                  All Departments
-                  </li>
-                  <li>All Departments</li>
-                  <li>All Departments</li>
-                  <li>All Departments</li>
-                  <li>All Departments</li>
-                  <li>All Departments</li>
+                {allItems.map((item) => (
+                  <li className='text-sm tracking-wide font-titleFont border-b-[1px]
+                    border-b-transparent hover:border-b-amazon_blue cursor-pointer duration-200'
+                    key={item._id}
+                  >
+                    {item.title}
+                </li>
+                ))}
               </ul>
             </div>
           )
