@@ -6,7 +6,7 @@ export const allItems=[
     {_id: '106', title: "Boys Fashion" },
     {_id: '107', title: "Computers" },
     {_id: '108', title: "Deals" },
-    {_id: '109', title: "digital Music" },
+    {_id: '109', title: "Digital Music" },
     {_id: '110', title: "Electronics" },
     {_id: '111', title: "Girls Fashion" },
     {_id: '112', title: "Health & Household" },
