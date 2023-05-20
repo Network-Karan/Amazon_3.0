@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 import ArrowDropDownOutlinedIcon from '@mui/icons-material/ArrowDropDownOutlined';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
@@ -6,6 +6,8 @@ import SearchIcon from '@mui/icons-material/Search';
 import {logo} from "../../assets/index"
 
 const Header = () => {
+  const [showAll, setShowAll]=useState(false)
+  console.log(showAll)
   return (
       <div>
         <div className='w-full bg-amazon_blue text-white px-4 py-3 flex items-center gap-4'>
@@ -28,12 +30,21 @@ const Header = () => {
         {/* ============ Deliver Start here =========== */}
         {/* ============ Search Start here =========== */}
       <div className='h-10 rounded-md flex flex-grow relative'>
-        <span className='w-14 h-full bg-gray-200 hover_bg-gray-300 border-2 cursor-point
+        <span onClick={()=>setShowAll(!showAll)} className='w-14 h-full bg-gray-200 hover_bg-gray-300 border-2 cursor-point
         duration-300 text-sm text-amazon_blue font-titleFont flex items-center
         justify-center rounded-tl-md rounded-bl-md'>
           All <span></span>
           <ArrowDropDownOutlinedIcon />
         </span>
+        {
+          showAll && (
+            <div>
+              <ul>
+                <li>All Departments</li>
+              </ul>
+            </div>
+          )
+        }
         <input 
           className='h-full text-base text-amazon_blue flex-grow outline-none border-none px-2'
           type="text" 
