@@ -1,6 +1,8 @@
 import React from 'react'
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 import ArrowDropDownOutlinedIcon from '@mui/icons-material/ArrowDropDownOutlined';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import SearchIcon from '@mui/icons-material/Search';
 import {logo} from "../../assets/index"
 
 const Header = () => {
@@ -32,7 +34,11 @@ const Header = () => {
         </span>
         <input 
           className='h-full text-base text-amazon_blue flex-grow outline-none border-none px-2'
-          type="text" />
+          type="text" 
+        />
+        <span>
+          <SearchIcon />
+        </span>
       </div>
         {/* ============ Search Start here =========== */}
         {/* ============ Signin Start here =========== */}
