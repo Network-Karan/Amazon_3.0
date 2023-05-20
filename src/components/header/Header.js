@@ -69,7 +69,7 @@ const Header = () => {
         {/* ============ Signin Start here =========== */}
         <div className='flex flex-col items-start justify-center headerHover'>
           <p className='text-xs text-lightText font-light'>Hello, Sign in</p>
-          <p>
+          <p className='text-sm font-semibold -mt-1 text-whiteText'>
             Accounts & Lists{" "}
              <span>
               <ArrowDropDownOutlinedIcon />
@@ -78,11 +78,17 @@ const Header = () => {
         </div>
         {/* ============ Signin Start here =========== */}
         {/* ============ Orders Start here =========== */}
-
+        <div className='flex flex-col items-start justify-center headerHover'>
+          <p className='text-xs text-lightText font-light'>Returns</p>
+          <p className='text-sm font-semibold -mt-1 text-whiteText'>& Orders</p>
+        </div>
         {/* ============ Orders Start here =========== */}
         {/* ============ Cart Start here =========== */}
-
-        {/* ============ Cart Start here =========== */}
+        <div className='flex items-start justify-center headerHover relative'>
+          <ShoppingCartIcon />
+          <p>Cart <span>0</span></p>
+        </div>
+        {/* ============ Cart Ends here =========== */}
         </div>
     </div>
   )
