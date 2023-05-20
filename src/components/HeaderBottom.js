@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
 const HeaderBottom = () => {
+    const [sidebar,setSidebar]= useState(false)
   return (
     <div className='w-full px-4 h-[36px] bg-amazon_light text-white flex items-center'>
     {/*================= ListItems Start here ==============*/}
