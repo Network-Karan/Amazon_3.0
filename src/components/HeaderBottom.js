@@ -2,7 +2,8 @@ import React, { useState } from 'react'
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
-import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
+import SideNavContent from './SideNavContent';
+
 
 const HeaderBottom = () => {
     const [sidebar,setSidebar]= useState(false)
@@ -30,34 +31,7 @@ const HeaderBottom = () => {
                   Hello, Sign in
                 </h3>
             </div>
-            <div>
-              <h3 className='text-lg font-titleFont font-semibold mb-1 px-6'>
-                Digital Content & Devices
-              </h3>
-              <ul>
-                <li className='flex items-center justify-between hover:bg-zinc-200 px-6
-                py-2 cursor-pointer'>
-                  Amazon Music{" "}
-                  <span>
-                    <KeyboardArrowRightIcon />
-                    </span>
-                </li>
-                <li className='flex items-center justify-between hover:bg-zinc-200 px-6
-                py-2 cursor-pointer'>
-                  Amazon Music{" "}
-                  <span>
-                    <KeyboardArrowRightIcon />
-                    </span>
-                </li>
-                <li className='flex items-center justify-between hover:bg-zinc-200 px-6
-                py-2 cursor-pointer'>
-                  Amazon Music{" "}
-                  <span>
-                    <KeyboardArrowRightIcon />
-                    </span>
-                </li>
-              </ul>
-            </div>
+            <SideNavContent />
           </div>
          </div>
         </div>
