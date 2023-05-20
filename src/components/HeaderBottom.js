@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 
 const HeaderBottom = () => {
     const [sidebar,setSidebar]= useState(false)
@@ -34,7 +35,7 @@ const HeaderBottom = () => {
                 Digital Content & Devices
               </h3>
               <ul>
-                <li></li>
+                <li>Amazon Music <span><KeyboardArrowRightIcon /></span></li>
               </ul>
             </div>
           </div>
