@@ -86,7 +86,11 @@ const Header = () => {
         {/* ============ Cart Start here =========== */}
         <div className='flex items-start justify-center headerHover relative'>
           <ShoppingCartIcon />
-          <p>Cart <span>0</span></p>
+          <p className='text-xs font-semibold mt-3 text-whiteText'>
+            Cart <span className='absolute text-xs top-0 left-6 font-semibold p-1
+            h-4 bg-[#f3a847] text-amazon_blue rounded-full flex justify-center
+            items-center'>0</span>
+            </p>
         </div>
         {/* ============ Cart Ends here =========== */}
         </div>
