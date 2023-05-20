@@ -67,7 +67,15 @@ const Header = () => {
       </div>
         {/* ============ Search Start here =========== */}
         {/* ============ Signin Start here =========== */}
-        
+        <div className='flex flex-col items-start justify-center headerHover'>
+          <p className='text-xs text-lightText font-light'>Hello, Sign in</p>
+          <p>
+            Accounts & Lists{" "}
+             <span>
+              <ArrowDropDownOutlinedIcon />
+            </span>
+          </p> 
+        </div>
         {/* ============ Signin Start here =========== */}
         {/* ============ Orders Start here =========== */}
 
