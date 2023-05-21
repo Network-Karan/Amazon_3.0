@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import MenuIcon from '@mui/icons-material/Menu';
-import {motion} from 'framer-motion'
+
 import CloseIcon from '@mui/icons-material/Close';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import SideNavContent from './SideNavContent';
