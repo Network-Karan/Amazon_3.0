@@ -32,6 +32,8 @@ const HeaderBottom = () => {
                 </h3>
             </div>
             <SideNavContent />
+            <SideNavContent />
+            <SideNavContent />
           </div>
          </div>
         </div>
