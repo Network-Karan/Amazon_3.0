@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import MenuIcon from '@mui/icons-material/Menu';
+import {motion} from 'framer-motion'
 import CloseIcon from '@mui/icons-material/Close';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import SideNavContent from './SideNavContent';
@@ -30,32 +31,32 @@ const HeaderBottom = () => {
                 <h3 className='font-titleFont font-bold text-lg tracking-wide'>
                   Hello, Sign in
                 </h3>
+              </div>
+              <SideNavContent
+                title='Digital Content & Devices'
+                one='Amazon Music'
+                two='Kindle E-readers & Books'
+                three='Amazon Appstore' 
+              />
+              <SideNavContent 
+                title='Shop by Department'
+                one='Electronics'
+                two='Computers'
+                three='Smart Home'
+              />
+              <SideNavContent
+                title='Programs & Features'
+                one='Gift Cards'
+                two='Amazon live'
+                three='International Shopping'
+              />
+              <SideNavContent
+                title='Help & Settings'
+                one='Your Account'
+                two='Customer Serivce'
+                three='Contact Us' 
+              />
             </div>
-            <SideNavContent
-              title='Digital Content & Devices'
-              one='Amazon Music'
-              two='Kindle E-readers & Books'
-              three='Amazon Appstore' 
-            />
-            <SideNavContent 
-              title='Shop by Department'
-              one='Electronics'
-              two='Computers'
-              three='Smart Home'
-            />
-            <SideNavContent
-              title='Programs & Features'
-              one='Gift Cards'
-              two='Amazon live'
-              three='International Shopping'
-            />
-            <SideNavContent
-              title='Help & Settings'
-              one='Your Account'
-              two='Customer Serivce'
-              three='Contact Us' 
-            />
-          </div>
           <span onClick={()=>setSidebar(false)} className='cursor-pointer absolute top-0 left-[360px] w-10 h-10 text-black
           flex items-center justify-center border bg-gray-200 hover:bg-red-500
           hover:text-white duration-300'>
