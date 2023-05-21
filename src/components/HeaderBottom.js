@@ -37,8 +37,24 @@ const HeaderBottom = () => {
               two='Kindle E-readers & Books'
               three='Amazon Appstore' 
             />
-            <SideNavContent />
-            <SideNavContent />
+            <SideNavContent 
+              title='Shop by Department'
+              one='Electronics'
+              two='Computers'
+              three='Smart Home'
+            />
+            <SideNavContent
+              title='Programs & Features'
+              one='Gift Cards'
+              two='Amazon live'
+              three='International Shopping'
+            />
+            <SideNavContent
+              title='Help & Settings'
+              one='Your Account'
+              two='Customer Serivce'
+              three='Contact Us' 
+            />
           </div>
          </div>
         </div>
