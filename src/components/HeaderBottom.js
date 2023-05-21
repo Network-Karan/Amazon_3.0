@@ -56,6 +56,11 @@ const HeaderBottom = () => {
               three='Contact Us' 
             />
           </div>
+          <span className='cursor-pointer absolute top-0 left-[360px] w-10 h-10 text-black
+          flex-items-center justify-center border bg-gray-200 hover:bg-red-500
+          hover:text-white duration-300'>
+            <CloseIcon />
+            </span>
          </div>
         </div>
       )}
