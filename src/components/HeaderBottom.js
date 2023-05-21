@@ -31,7 +31,12 @@ const HeaderBottom = () => {
                   Hello, Sign in
                 </h3>
             </div>
-            <SideNavContent />
+            <SideNavContent
+              title='Digital Content & Devices'
+              one='Amazon Music'
+              two='Kindle E-readers & Books'
+              three='Amazon Appstore' 
+            />
             <SideNavContent />
             <SideNavContent />
           </div>
