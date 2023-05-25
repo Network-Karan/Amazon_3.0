@@ -1,6 +1,7 @@
 import React from 'react'
 import FooterMiddleList from './FooterMiddleList'
 import { middleList } from '../../constants'
+import {logo} from "../../assets/index"
 
 const FooterMiddle = () => {
   return (
@@ -21,6 +22,11 @@ const FooterMiddle = () => {
       </div>
       {/* ============ Top End here ============ */}
       {/* ============ Botton Start here ============ */}
+      <div className='w-full flex gap-6 items-center justify-center py-6'>
+        <div>
+          <img src={logo} alt='logo' />
+        </div>
+      </div>
       {/* ============ Bottom End here ============ */}
     </div>
   )
