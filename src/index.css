@@ -10,6 +10,6 @@
         cursor-pointer duration-100
     }
         .footerLink {
-            @apply text-sm font-bodyFont tracking-wide hover:text-gray-100 cursor-pointer hover:underline duration-150
+            @apply text-sm font-sans tracking-wide hover:text-gray-100 cursor-pointer hover:underline duration-150
         }
 }
