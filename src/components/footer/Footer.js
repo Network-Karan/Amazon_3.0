@@ -1,7 +1,7 @@
 import React from 'react'
-import FooterTop from './FooterTop'
-import FooterMiddle from './FooterMiddle'
 import FooterBottom from './FooterBottom'
+import FooterMiddle from './FooterMiddle'
+import FooterTop from './FooterTop'
 
 const Footer = () => {
   return (
