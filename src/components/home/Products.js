@@ -22,34 +22,34 @@ const Products = () => {
               src={items.image} 
               alt="ProductImg" 
             />
-            <ul className='w-full h-36 bg-gray-100 absolute bottom-[-170px] justify-center gap-2
-            font-titleFont-px-2 border-1 border-r group-hover:bottom-0 duration-700'>
+            <ul className='w-full h-36 bg-gray-100 absolute bottom-[-170px] flex flex-col items-end
+            justify-center gap-2 font-titleFont px-2 border-l border-r group-hover:bottom-0 duration-700'>
               <li className='productLi'>
-                Compare
+                Compare{" "}
                 <span>
                   <ApiIcon />
                 </span>
               </li>
               <li className='productLi'>
-                Add to Cart
+                Add to Cart{" "}
                 <span>
                   <ShoppingCartIcon />
                 </span>
               </li>
               <li className='productLi'>
-                View Details
+                View Details{" "}
                 <span>
                   <ArrowCircleRightIcon />
                 </span>
               </li>
               <li className='productLi'>
-                Add to Wish Lists
+                Add to Wish Lists{" "}
                 <span>
                   <FavouriteIcon />
                 </span>
               </li>
             </ul>
-            <span className='text-xs capitalize italic absolute top-2 right-2 text-gray-500'>{items.category}</span>
+              <span className='text-xs capitalize italic absolute top-2 right-2 text-gray-500'>{items.category}</span>
             </div>
             <div className='px-4 z-10 bg-white'>
             <div className='flex items-center justify-between'>
